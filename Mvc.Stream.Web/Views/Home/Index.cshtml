@@ -1,0 +1,42 @@
+﻿
+<h1>MVC Streaming Test Page</h1>
+
+<div>
+    <h2>MVC Streaming: 854x480 (<a href='@Url.Action("Stream480pDownload")'>Download</a>)</h2>
+    <video src='@Url.Action("Stream480p")' controls="true">
+        <i>You need a HTML5 &lt;video&gt; capable browser to view this movie.</i>
+    </video>
+</div>
+
+<div>
+    <h2>FilePathResult: 854x480 (<a href='@Url.Action("Stream480pOldDownload")'>Download</a>)</h2>
+    <video src='@Url.Action("Stream480pOld")' controls="true">
+        <i>You need a HTML5 &lt;video&gt; capable browser to view this movie.</i>
+    </video>
+</div>
+
+<div>
+    <h2>MVC Streaming: 1280x720 (<a href='@Url.Action("Stream720pDownload")'>Download</a>)</h2>
+    <video src='@Url.Action("Stream720p")' controls="true">
+        <i>You need a HTML5 &lt;video&gt; capable browser to view this movie.</i>
+    </video>
+</div>
+<div>
+    <h2>FilePathResult: 1280x720 (<a href='@Url.Action("Stream720pOldDownload")'>Download</a>)</h2>
+    <video src='@Url.Action("Stream720pOld")' controls="true">
+        <i>You need a HTML5 &lt;video&gt; capable browser to view this movie.</i>
+    </video>
+</div>
+
+<div>
+    <h2>MVC Streaming: 1920x1080 (<a href='@Url.Action("Stream1080pDownload")'>Download</a>)</h2>
+    <video src='@Url.Action("Stream1080p")' controls="true">
+        <i>You need a HTML5 &lt;video&gt; capable browser to view this movie.</i>
+    </video>
+</div>
+<div>
+    <h2>FilePathResult: 1920x1080 (<a href='@Url.Action("Stream1080pOldDownload")'>Download</a>)</h2>
+    <video src='@Url.Action("Stream1080pOld")' controls="true">
+        <i>You need a HTML5 &lt;video&gt; capable browser to view this movie.</i>
+    </video>
+</div>

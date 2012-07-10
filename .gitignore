@@ -1,0 +1,8 @@
+_ReSharper*
+Mvc.Stream.Web/Content
+**/bin
+**/obj
+*.user
+*.suo
+!packages/repositories.config
+packages
